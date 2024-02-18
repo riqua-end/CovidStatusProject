@@ -7,7 +7,7 @@ public class CovidStatus {
 
     private List<Integer> weeklyPositiveCasesList; // 주간 양성자
 
-    public CovidStatus() {
+    public CovidStatus() { //기본 생성자
     }
 
     public CovidStatus(String category, List<Integer> weeklyPositiveCasesList) {
